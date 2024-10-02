@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffec00;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design: réduire les informations pour les petits écrans */
+@media screen and (max-width: 600px) {
+    p {
+        display: none; /* Cache toutes les informations sauf le nom */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Réduit la taille du nom */
+    }
+
+    h2 {
+        display: none; /* Cache toutes les informations sauf le nom */
+    }
+
+    .cv-box {
+        width: 80%;
+        padding: 20px; /* Ajuste le padding pour un écran plus petit */
+    }
+}

@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffec00;
+    background-color: #00ecff;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,6 +32,10 @@ p {
     font-size: 1.2em;
 }
 
+p2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
 a {
     color: #007bff;
     text-decoration: none;
@@ -41,22 +45,27 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Responsive design: réduire les informations pour les petits écrans */
+
 @media screen and (max-width: 600px) {
     p {
-        display: none; /* Cache toutes les informations sauf le nom */
+        display: none; 
+    }
+
+    p2 {
+        display: flex;
+
     }
 
     h1 {
-        font-size: 1.5em; /* Réduit la taille du nom */
+        font-size: 1.5em; /
     }
 
     h2 {
-        display: none; /* Cache toutes les informations sauf le nom */
+        display: none; 
     }
 
     .cv-box {
         width: 80%;
-        padding: 20px; /* Ajuste le padding pour un écran plus petit */
+        padding: 20px; 
     }
 }

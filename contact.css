@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffec00;
+    background-color: #00ecff;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Responsive design pour petits écrans */
+
 @media screen and (max-width: 600px) {
     .form-container {
         width: 90%;
